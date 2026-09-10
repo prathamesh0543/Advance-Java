@@ -12,7 +12,7 @@ public class DocHosController {
     DocHosController(Hospital h1)
     {
         h=h1;
-        System.out.println("This is controller class constructor");
+
     }
     @GetMapping("/gethospitalinfo")
     public String getinfo()
